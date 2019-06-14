@@ -1,0 +1,56 @@
+body{
+    background-color:#0a0a0a;
+    margin: 0;
+}
+
+/* --------- NAV ------------------------------------------*/
+nav{
+    background-color: #0f0f0f;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;                
+    align-items: center;
+}
+
+/* -------------------- UL ------------------------------------------*/
+
+ul{
+    display: flex;
+    list-style-type: none; 
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+/* -------------------------------- A ------------------------------------------*/
+
+a{
+    color: white;
+    font-size: 14pt;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder; 
+    cursor: pointer;
+}
+
+.search{
+    background-color: #4a4a4a;
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+}
+.search input{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    background-color: #4a4a4a;
+}
+.search img{
+    padding-right: 5px;
+}
+
+div input::placeholder{
+    color: white;
+    padding-left: 5px;
+}
